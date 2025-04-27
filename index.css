@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Pixelify+Sans:wght@400..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;    
+    font-family: "Pixelify Sans", serif;
+
+}
+
+body {
+    background-color: black;
+    font-family: pi; 
+    color: white;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+.number {
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+.try {
+    padding: 20px;
+    background-color: beige;
+    text-transform: uppercase;
+    font-size: 2em;
+    cursor: pointer;
+    border-color: 2px green;
+
+}
+
+.content {
+    justify-content: center;
+    /* align-items: center; */
+    display: flex;
+}
+
+.line{
+    background-color: beige;
+    height: 20px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(246, 213, 82);
+    margin-bottom:-50px;
+}
+
+.clue {
+    text-align: right;
+    /* margin-top: 50px; */
+    /* margin-bottom: -40px;
+    padding-top: 20px; */
+}
+
+.guess {
+    height: 80px;
+    text-align: center;
+    font-size: 20px;
+    border: 5px solid beige;
+    /* margin-left: 100px; */
+    float: left;
+    background: none;
+    color: white;
+    padding: auto;
+    margin-top: 4em;
+    margin-left: 2em;
+}
+
+.guessbtn {
+    margin-top: 7em;
+    margin-left: 2em;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.right {
+    float: right;
+    margin-right: 9em; 
+    /* padding: 10px; */
+
+}
+
+.happy {
+    margin-bottom: 2em;
+    /* margin-right: 3em; */
+}
+
+.scoring {
+    margin-right: 6em;
+}
+
+.try {
+    margin-top: 1em;
+    margin-left: 1em;
+}
